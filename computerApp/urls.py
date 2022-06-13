@@ -18,5 +18,5 @@ urlpatterns = [
     views.personnel_detail_view,
       name='personnel-detail'),
 
-    
+   
 ]
