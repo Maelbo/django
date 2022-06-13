@@ -1,0 +1,12 @@
+{% extends "index.html" %} 
+
+{% block content %}
+<h1>ajouter machine</h1>
+<form method="post">
+    {% csrf_token %} 
+    {{ machine.as_p }} 
+    <input type="sumbit" class="btn btn-primary" value="ajouter">
+
+
+</form>
+{% endblock %}
